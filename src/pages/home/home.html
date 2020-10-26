@@ -1,14 +1,20 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content no-padding no-bounce>
+  <div class="background" ion-fixed>
+    <img src="assets/imgs/background.jpg"/>
+  </div>
+  <div class="logo animated bounceInUp">
+      <img src="assets/imgs/logo.png"/>
+  </div>
+  <div class="btns animated bounceIn">
+    <div id="btn1" (click)="btnClick('btn1')">
+        <img src="assets/imgs/btn1.png"/>
+    </div>
+    <div id="btn2" (click)="btnClick('btn2')">
+        <img src="assets/imgs/btn2.png"/>
+    </div>
+    <div id="btn3" (click)="btnClick('btn3')">
+        <img src="assets/imgs/btn3.png"/>
+    </div>
+  </div>
 </ion-content>

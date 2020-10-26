@@ -1,0 +1,20 @@
+<!--
+  Generated template for the AnimalsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content no-padding no-bounce>
+  <img src="assets/imgs/background.jpg" style="width: 100vw; height: 100vh; object-fit: cover; z-index: 0;" ion-fixed />
+  <img class="back" src="assets/imgs/back.png" (click)="backToHome()"/>
+  <ion-slides pager>
+    <ion-slide *ngFor="let a of animals" (click)="cardClick(a)">
+      <div id="{{a.label}}" class="animal_card" [style.background-color]="a.color">
+        <div>
+          <img [src]="a.imgSrc" />
+          <label>{{a.label}}</label>
+        </div>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

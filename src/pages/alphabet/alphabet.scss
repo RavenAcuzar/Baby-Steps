@@ -1,0 +1,30 @@
+page-alphabet {
+    ion-slides{
+        width: 55%;
+        margin: auto;
+        .swiper-container{
+            overflow: visible;
+            img{
+                width: 100%;
+                height: 100%;
+                margin: auto;
+            }
+        }
+        ion-slide{
+            .slideimg{
+                width: 90%;
+                opacity: 0.8;
+                box-shadow: 10px 10px 10px rgba(0,0,0,0);
+                transition: width 0.3s, opacity 0.3s, box-shadow 0.3s;
+            }
+        }
+    }
+    ion-slide.swiper-slide-active{
+        .slideimg{
+            width: 100%;
+            opacity: 1;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+        }
+    }
+    
+}

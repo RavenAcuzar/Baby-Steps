@@ -1,0 +1,40 @@
+page-animals {
+    @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap');
+    .animal_card{
+        margin: 50px;
+        box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+        border-radius: 30px;
+        height: 87vh;
+        div{
+            padding:10px;
+            display: grid;
+            align-items: center;
+            grid-template-areas: "img Clabel";
+            grid-template-columns: 1fr 1fr;
+            height: 100%;
+            width: 95%;
+            margin: auto;
+            img{
+                width: auto;
+                grid-area: img;
+                margin: auto;
+            }
+            label{
+                grid-area: Clabel;
+                text-align: center;
+                font-family: 'Nanum Brush Script', cursive;
+                text-transform: uppercase;
+                font-size: 19vw;
+                font-weight: bold;
+                color: white;
+            }
+        }
+    }
+
+    /*for elephant and rooster to adjust layout*/
+    ion-slide:nth-child(6),ion-slide:nth-child(11){
+        label{
+            font-size: 12vw !important;
+        }
+    }
+}

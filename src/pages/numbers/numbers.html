@@ -1,0 +1,20 @@
+<!--
+  Generated template for the NumbersPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content no-padding no-bounce>
+  <img src="assets/imgs/background.jpg" style="width: 100vw; height: 100vh; object-fit: cover; z-index: 0;" ion-fixed />
+  <img class="back" src="assets/imgs/back.png" (click)="backToHome()" />
+  <ion-slides (ionSlideDidChange)="slideChanged()">
+    <ion-slide *ngFor="let a of numbers">
+      <div>
+        <video id="{{a.label}}" class="slideimg" [poster]="a.vidThumb" autobuffer controls preload="auto" playsinline
+          webkit-playsinline>
+          <source [src]="a.vidSrc" />
+        </video>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

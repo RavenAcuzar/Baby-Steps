@@ -6,11 +6,21 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { AnimalsPage } from '../pages/animals/animals';
+import { AlphabetPage } from '../pages/alphabet/alphabet';
+import { Media } from '@ionic-native/media';
+import { NativeAudio } from '@ionic-native/native-audio';
+import { SmartAudioProvider } from '../providers/smart-audio/smart-audio';
+import { NumbersPage } from '../pages/numbers/numbers';
+import { AssetsProvider } from '../providers/assets/assets';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AnimalsPage,
+    AlphabetPage,
+    NumbersPage
   ],
   imports: [
     BrowserModule,
@@ -19,12 +29,19 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AnimalsPage,
+    AlphabetPage,
+    NumbersPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    Media,
+    NativeAudio,
+    SmartAudioProvider,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AssetsProvider
   ]
 })
 export class AppModule {}
