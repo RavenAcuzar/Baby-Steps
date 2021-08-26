@@ -5,7 +5,7 @@
 This app is a sample kids learning mobile application.
 
 ## Screenshots
-<img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8).png" width="50%"> <img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8)%20(1).png" width="50%"> <img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8)%20(2).png" width="50%"> <img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8)%20(3).png" width="50%">
+<img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8).png" width="50%"><img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8)%20(1).png" width="50%"><img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8)%20(2).png" width="50%"><img src="https://github.com/RavenAcuzar/Baby-Steps/blob/master/src/assets/localhost_8100_(iPhone%206_7_8)%20(3).png" width="50%">
 
 ## Getting Started
 
